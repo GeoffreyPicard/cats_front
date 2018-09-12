@@ -14,6 +14,8 @@ class Home extends Component {
       		url2: ""
     	};
   	}
+
+  	// Load two image on mount
 	componentDidMount() {
 		fetch('http://localhost:3001/getimages')
 		.then(res => res.json())

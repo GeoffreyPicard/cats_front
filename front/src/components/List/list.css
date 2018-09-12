@@ -1,0 +1,26 @@
+.row_box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.column_box {
+	height: 83vh;
+	width: 40%;
+	padding-top: 5vw;
+}
+
+.cat_rating_box {
+	display: flex;
+	align-items: center;
+	height: 10vw;
+	font-size: 1.1vw;
+}
+
+.rating_image {
+	width: 20%;
+	border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 50px;
+}
